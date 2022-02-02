@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM boxinaclosedbox/ubuntu-web-terminal:latest
 RUN apt-get update && apt-get upgrade -y
 
 ENV DEBIAN_FRONTEND=noninteractive
