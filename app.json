@@ -1,0 +1,24 @@
+{
+    "name": "Web Terminal",
+    "description": "Fully fledged Ubuntu Terminal, refer readme for more info.",
+    "repository": "https://github.com/Box-boi/web-terminal.git",
+    "keywords": ["docker","ubuntu", "linux", "remote", "ssh", "rclone", "auto-backup"],
+    "stack": "container",
+    "env": {
+      "USERNAME" : {
+        "description": "Your Username.",
+	      "value" : "user",
+        "required" : true
+      },
+      "PASSWORD": {
+        "description": "Your Password.",
+        "value" : "password",
+        "required" : true
+      },
+      "APP_NAME" : {
+        "description": "Name of the app, same as mentioned above.",
+        "value" : "",
+        "required" : true
+      }
+    } 
+  }
