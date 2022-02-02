@@ -10,3 +10,5 @@ COPY .bashrc $HOME/.bashrc
 
 ADD https://github.com/tsl0922/ttyd/releases/download/1.6.1/ttyd_linux.x86_64 /usr/local/bin/ttyd
 RUN chmod +x /usr/local/bin/ttyd
+COPY start.sh $HOME/start.sh
+CMD ["bash","start.sh"]
